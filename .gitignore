@@ -1,0 +1,42 @@
+# Byte-code files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+bin/
+lib/
+include/
+
+# IDE-specific files and folders
+.vscode/
+.idea/
+
+# Editor-specific files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+
+# Environment variables and sensitive files
+.env
+.flaskenv
+secrets.toml
+
+# Log and data files
+*.log
+npm-debug.log
+data/ # Example for large data files you don't want in version control
